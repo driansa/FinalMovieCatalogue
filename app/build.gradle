@@ -18,7 +18,7 @@ android {
         vectorDrawables.useSupportLibrary = true
 
         buildConfigField "String", "BASE_URL", '"https://api.themoviedb.org/3/"'
-        buildConfigField "String", "TMDB_API_KEY", '"079679b58ec4b0ec1da45aaa59d78dea"'
+        buildConfigField "String", "TMDB_API_KEY", '"ISI DENGAN API KEY MU"'
         buildConfigField "String", "IMAGE_POSTER_PATH_URL", '"https://image.tmdb.org/t/p/w500"'
     }
 
