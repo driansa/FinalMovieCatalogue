@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blueGrey_500">#FF607d8b</color>
+    <color name="blueGrey_700">#FF455a64</color>
+    <color name="pink_200">#FFf48fb1</color>
+    <color name="pink_700">#FFc2185b</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="placeholder">#6FB6B6B6</color>
+    <color name="rate">#FFFFC500</color>
+</resources>

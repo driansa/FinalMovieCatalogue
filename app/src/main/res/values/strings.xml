@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+    <string name="title_movie">Movie</string>
+    <string name="title_tv">TV Show</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="title_activity_movie_detail">Movie Detail</string>
+    <string name="title_activity_tv_show_detail">TV Show Detail</string>
+
+    <string name="title">Title</string>
+    <string name="overview">Overview</string>
+    <string name="release_date">Release Date</string>
+    <string name="first_air_date">First Air Date</string>
+    <string name="vote_average">Vote Average</string>
+    <string name="message_undo">Batalkan menghapus item ini?</string>
+    <string name="message_ok">OK</string>
+    <string name="content_description_splash">Image Splashscreen</string>
+</resources>

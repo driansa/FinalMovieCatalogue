@@ -1,0 +1,87 @@
+Instrumental Testing
+
+
+Menampilkan data movie
+
+- Memastikan nav_view (NavigationBottom) dalam keadaan tampil.
+- Memastikan rv_movie (RecyclerView movie) dalam keadaan tampil.
+- Gulir rv_movie ke posisi data terakhir.
+
+
+Menampilkan data detail movie
+
+- Memastikan nav_view (NavigationBottom) dalam keadaan tampil.
+- Memberi tindakan klik pada data ke-dua di rv_movie (RecyclerView movie).
+- Memastikan TextView untuk title tampil sesuai dengan yang diharapkan.
+- Memastikan TextView untuk overview tampil sesuai dengan yang diharapkan.
+- Memastikan TextView untuk release date tampil sesuai dengan yang diharapkan.
+- Memastikan TextView untuk vote average tampil sesuai dengan yang diharapkan.
+- Memastikan ImageView untuk image poster tampil sesuai dengan yang diharapkan.
+- Memastikan ImageView untuk image header tampil sesuai dengan yang diharapkan.
+
+
+
+Menampilkan data tv show
+
+- Memastikan nav_view (NavigationBottom) dalam keadaan tampil.
+- Memberi tindakan klik pada navigation_tv.
+- Memastikan rv_tv (RecyclerView tv)dalam keadaan tampil.
+- Gulir rv_tv ke posisi data terakhir.
+
+
+Menampilkan data detail tv show
+
+- Memastikan nav_view (NavigationBottom) dalam keadaan tampil.
+- Memberi tindakan klik pada navigation_tv.
+- Memberi tindakan klik pada data ke-dua di rv_tv (RecyclerView tv).
+- Memastikan TextView untuk name tampil sesuai dengan yang diharapkan.
+- Memastikan TextView untuk overview tampil sesuai dengan yang diharapkan.
+- Memastikan TextView untuk first air date tampil sesuai dengan yang diharapkan.
+- Memastikan TextView untuk vote average tampil sesuai dengan yang diharapkan.
+- Memastikan ImageView untuk image poster tampil sesuai dengan yang diharapkan.
+- Memastikan ImageView untuk image header tampil sesuai dengan yang diharapkan.
+
+
+
+Menambahkan, Menghapus dan Menampilkan data pada Favorite Movie
+
+- Memastikan nav_view (NavigationBottom)) dalam keadaan tampil.
+- Memastikan rv_movie (RecyclerView movie) dalam keadaan tampil.
+- Memberi tindakan klik pada data pertama di rv_movie (RecyclerView movie).
+- Memberi tindakan klik pada action_favorite (menambahkan data ke database favorite).
+- Memberi tindakan klik pada pressBack.
+- Memberi tindakan klik pada navigation_favorite (NavigationBottom)).
+- Memastikan rv_favorite_movie (RecyclerView favorite movie) dalam keadaan tampil.
+- Memberi tindakan klik pada data pertama di rv_favorite_movie (RecyclerView favorite movie).
+- Memastikan TextView untuk title tampil sesuai dengan yang diharapkan.
+- Memastikan TextView untuk overview tampil sesuai dengan yang diharapkan.
+- Memastikan TextView untuk release date tampil sesuai dengan yang diharapkan.
+- Memastikan TextView untuk vote average tampil sesuai dengan yang diharapkan.
+- Memastikan ImageView untuk image poster tampil sesuai dengan yang diharapkan.
+- Memastikan ImageView untuk image header tampil sesuai dengan yang diharapkan.
+- Memberi tindakan klik pada action_favorite (menghapus data dari database favorite).
+- Memberi tindakan klik pada pressBack.
+
+
+Menambahkan, Menghapus dan Menampilkan data pada Favorite Tv Show
+
+- Memastikan nav_view (NavigationBottom)) dalam keadaan tampil.
+- Memberi tindakan klik pada navigation_tv (NavigationBottom)).
+- Memastikan rv_tv (RecyclerView tv) dalam keadaan tampil.
+- Memberi tindakan klik pada data pertama di rv_tv (RecyclerView tv).
+- Memberi tindakan klik pada action_favorite (menambahkan data ke database favorite).
+- Memberi tindakan klik pada pressBack.
+- Memberi tindakan klik pada navigation_favorite (NavigationBottom)).
+- Memastikan tabs dalam keadaan tampil.
+- Memberi tindakan klik pada tabs TV SHOW.
+- Memastikan rv_favorite_tv (RecyclerView favorite tv) dalam keadaan tampil.
+- Memberi tindakan klik pada data pertama di rv_favorite_tv (RecyclerView favorite tv).
+- Memastikan TextView untuk name tampil sesuai dengan yang diharapkan.
+- Memastikan TextView untuk overview tampil sesuai dengan yang diharapkan.
+- Memastikan TextView untuk first air date tampil sesuai dengan yang diharapkan.
+- Memastikan TextView untuk vote average tampil sesuai dengan yang diharapkan.
+- Memastikan ImageView untuk image poster tampil sesuai dengan yang diharapkan.
+- Memastikan ImageView untuk image header tampil sesuai dengan yang diharapkan.
+- Memberi tindakan klik pada action_favorite (menghapus data dari database favorite).
+- Memberi tindakan klik pada pressBack.
+

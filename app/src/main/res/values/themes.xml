@@ -1,0 +1,85 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FinalMovieCatalogue" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blueGrey_500</item>
+        <item name="colorPrimaryVariant">@color/blueGrey_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/pink_200</item>
+        <item name="colorSecondaryVariant">@color/pink_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:tabWidgetStyle">@style/Theme.FinalMovieCatalogue.TabFavorite</item>
+    </style>
+
+    <style name="Theme.FinalMovieCatalogue.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.FinalMovieCatalogue.TabFavorite">
+        <item name="tabBackground">?attr/colorOnPrimary</item>
+        <item name="tabGravity">fill</item>
+        <item name="tabIndicator">@color/white</item>
+        <item name="tabMaxWidth">0dp</item>
+        <item name="tabMode">fixed</item>
+    </style>
+
+    <style name="Theme.FinalMovieCatalogue.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.FinalMovieCatalogue.Fullscreen" parent="Theme.FinalMovieCatalogue">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="CardTitleText" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="CardReleaseDateText" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="CardVoteAverageText" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/rate</item>
+    </style>
+
+    <style name="TitleText" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="ReleaseDateText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:fontFamily">serif</item>
+    </style>
+
+    <style name="OverviewTitleText" parent="TextAppearance.AppCompat.Title">
+        <item name="android:text">@string/overview</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0.15</item>
+    </style>
+
+    <style name="OverviewText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:paddingBottom">16dp</item>
+    </style>
+
+</resources>
