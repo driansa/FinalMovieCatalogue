@@ -15,5 +15,5 @@ App Movie Catalogue with __Android Architecture Components__ and __API__ [The Mo
 - [retrofit](https://github.com/square/retrofit)
 - [okhttp](https://github.com/square/okhttp/tree/master/okhttp-logging-interceptor)
 - [glide](https://github.com/bumptech/glide/)
-- [Room]
-- [Paging]
+- Room
+- Paging
